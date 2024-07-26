@@ -23,12 +23,12 @@ const FeaturesData = [
     aosDelay: "500",
   },
   {
-    name: "Hospital Management System",
+    name: "Shoping app- Shopna",
     icon: (
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
-    link: "https://github.com/Pri124" ,
-    description: "Designed and implemented a Hospital Management System in Java, optimizing patient data management, doctor scheduling, and appointment booking processes. Integrated a MySQL database for secure data storage and retrieval, ensuring data integrity and streamlining administrative tasks.",
+    link: "" ,
+    description: "Shopna is a online cloth eshop. In this app there are varity of gorments availablefor all age group people. It is build using react.js and design using tailwind css.",
     aosDelay: "700",
   },
 ];
