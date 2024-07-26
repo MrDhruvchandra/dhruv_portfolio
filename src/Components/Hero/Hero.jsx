@@ -25,25 +25,16 @@ const Hero = ({ togglePlay }) => {
                 > <a href="https://drive.google.com/file/d/13TEyTPnYKX1VPdZcQTsmrSuHeB-AwwCK/view?usp=drivesdk" target="_blank"> Download Resume</a>
                   
                 </button>
-                {/* <button
-                  data-aos="fade-up"
-                  data-aos-delay="700"
-                  onClick={togglePlay}
-                  className="flex items-center gap-2"
-                >
-                  {" "}
-                  <BiPlayCircle className="text-3xl" />
-                  See Demo
-                </button> */}
+                 
               </div>
             </div>
             {/* image section */}
             <div
               data-aos="fade-up"
               data-aos-offset="0"
-              className="order-1 sm:order-2 "
+              className="order-1 sm:order-2"
             >
-              <img src={DhruvPng} alt="" className="" />
+              <img src={DhruvPng} alt="" style={{ height: '40em', borderEndStartRadius:'35px', borderBottomRightRadius:'35px' }}  className=" " />
             </div>
           </div>
 

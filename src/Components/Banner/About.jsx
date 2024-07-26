@@ -1,5 +1,5 @@
 import React from "react";
-import Aboutpng from "../../assets/dhruv3.png";
+import Aboutpng from "../../assets/dhruv1.png";
  
 const About = ({ togglePlay }) => {
   return (
@@ -8,7 +8,7 @@ const About = ({ togglePlay }) => {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 place-items-center">
           {/* image section */}
           <div data-aos="fade-up" data-aos-once="false">
-            <img src={Aboutpng} alt="" className="w-full max-w-[400px]" />
+            <img src={Aboutpng} style={{   borderEndStartRadius:'35px', borderBottomRightRadius:'35px' }} alt="" className="w-full max-w-[400px]" />
           </div>
           {/* text content section */}
           <div className=" lg:pr-20 relative">

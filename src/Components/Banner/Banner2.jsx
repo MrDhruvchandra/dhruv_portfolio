@@ -1,5 +1,5 @@
 import React from "react";
-import BannerPng from "../../assets/dhruv3.png";
+import BannerPng from "../../assets/dhruv2.png";
 import { BiPlayCircle } from "react-icons/bi";
 
 const Banner2 = ({ togglePlay }) => {
@@ -70,7 +70,7 @@ const Banner2 = ({ togglePlay }) => {
 
           {/* image section */}
           <div data-aos="fade-up" className="order-1 sm:order-2">
-            <img src={BannerPng} alt="" className="w-full max-w-[400px]" />
+            <img src={BannerPng} style={{  borderEndStartRadius:'35px', borderBottomRightRadius:'35px' }} alt="" className="w-full max-w-[400px]" />
           </div>
         </div>
       </div>
