@@ -28,7 +28,7 @@ const FeaturesData = [
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "" ,
-    description: "Shopna is a online cloth eshop. In this app there are varity of gorments availablefor all age group people. It is build using react.js and design using tailwind css.",
+    description: "Shopna is an online clothing e-shop. In this app, there are a variety of garments available for all age groups. It is built using React.js and designed using Tailwind CSS.",
     aosDelay: "700",
   },
 ];
