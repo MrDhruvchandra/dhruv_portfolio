@@ -18,7 +18,7 @@ const FeaturesData = [
     icon: (
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
-    link: "https://rsac-dhruv.netlify.app/",
+    link: "https://mrdhruvchandra.github.io/pr1/",
     description: "Developed a website of remote sensing application center, during my internship there. It shows various data of roads and bridges in uttar pradesh. This website is build using HTML,CSS, and javascript and for map integration I used openlayer.js which is a javascript library.",
     aosDelay: "500",
   },
