@@ -18,7 +18,7 @@ const FooterLinks = [
   {
     id: 3,
     title: "Contact",
-    link: "/#contact",
+    link: "mailto:dhruvmaurya298@gmail.com",
   }
 ];
 const Footer = () => {
@@ -85,12 +85,19 @@ const Footer = () => {
                  {/* contact section */}
               <div>
                 <div className="flex items-center py-8 gap-3">
-                  <FaLocationArrow />
+                 <a href="" target="_blank">
+                 <FaLocationArrow />
+                 </a>
+                  
                   <p>Lucknow, Uttar Pradesh</p>
                 </div>
                 <div className="flex items-center gap-3">
+                  <a href="callto:+917985010058" target="_blank">
                   <FaMobileAlt />
+                  </a>
+                 
                   <p>+91 7985010058</p>
+                  
                 </div>
               </div>
 
