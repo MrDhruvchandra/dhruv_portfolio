@@ -1,14 +1,33 @@
 import React from "react";
-import Aboutpng from "../../assets/dhruv1.png";
+import Aboutpng from "../../assets/d1.png";
  
 const About = ({ togglePlay }) => {
+  const imageStyle = {
+    width: "90%",
+    marginLeft: "6rem",
+    borderRadius: "100%",
+    boxShadow: "0 2px 8px rgba(0, 0, 0, 0.3)",
+    cursor: "pointer",
+  };
+
+  const mobileImageStyle = {
+    width: "70%",
+    marginLeft: "40px ",
+    display: "block",
+    borderRadius: "100%",
+    boxShadow: "0 2px 8px rgba(0, 0, 0, 0.3)",
+    cursor: "pointer",
+  };
+
+  // Check if the screen width is less than or equal to 768px (mobile size)
+  const isMobile = window.innerWidth <= 768;
   return (
     <div id="about" className="py-12 sm:py-0 relative">
       <div className="container min-h-[620px] flex items-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 place-items-center">
           {/* image section */}
           <div data-aos="fade-up" data-aos-once="false">
-            <img src={Aboutpng} style={{   borderEndStartRadius:'35px', borderBottomRightRadius:'35px' }} alt="" className="w-full max-w-[400px]" />
+            <img src={Aboutpng} style={isMobile ? mobileImageStyle : imageStyle} alt="" className="w-full max-w-[400px]" />
           </div>
           {/* text content section */}
           <div className=" lg:pr-20 relative">

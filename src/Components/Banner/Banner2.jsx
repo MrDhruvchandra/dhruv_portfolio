@@ -1,8 +1,27 @@
 import React from "react";
-import BannerPng from "../../assets/dhruv2.png";
-import { BiPlayCircle } from "react-icons/bi";
+import BannerPng from "../../assets/d3.png";
+// import { BiPlayCircle } from "react-icons/bi";
 
 const Banner2 = ({ togglePlay }) => {
+  const imageStyle = {
+    width: "90%",
+    marginLeft: "6rem",
+    borderRadius: "100%",
+    boxShadow: "0 2px 8px rgba(0, 0, 0, 0.3)",
+    cursor: "pointer",
+  };
+
+  const mobileImageStyle = {
+    width: "70%",
+    marginLeft: "40px ",
+    display: "block",
+    borderRadius: "100%",
+    boxShadow: "0 2px 8px rgba(0, 0, 0, 0.3)",
+    cursor: "pointer",
+  };
+
+  // Check if the screen width is less than or equal to 768px (mobile size)
+  const isMobile = window.innerWidth <= 768;
   return (
     <div className="py-12 sm:py-0 relative">
       <div className="container min-h-[620px] flex items-center">
@@ -70,7 +89,7 @@ const Banner2 = ({ togglePlay }) => {
 
           {/* image section */}
           <div data-aos="fade-up" className="order-1 sm:order-2">
-            <img src={BannerPng} style={{  borderEndStartRadius:'35px', borderBottomRightRadius:'35px' }} alt="" className="w-full max-w-[400px]" />
+            <img src={BannerPng} style={isMobile ? mobileImageStyle : imageStyle} alt="" className="w-full max-w-[400px]" />
           </div>
         </div>
       </div>

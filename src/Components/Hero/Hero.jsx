@@ -1,7 +1,26 @@
 import React from "react";
-import DhruvPng from "../../assets/dhruv2.png";
+import DhruvPng from "../../assets/d3.png";
  
 const Hero = ({ togglePlay }) => {
+  const imageStyle = {
+    width: "70%",
+    marginLeft: "6rem",
+    borderRadius: "100%",
+    boxShadow: "0 2px 8px rgba(0, 0, 0, 0.3)",
+    cursor: "pointer",
+  };
+
+  const mobileImageStyle = {
+    width: "70%",
+    marginLeft: "40px ",
+    display: "block",
+    borderRadius: "100%",
+    boxShadow: "0 2px 8px rgba(0, 0, 0, 0.3)",
+    cursor: "pointer",
+  };
+
+  // Check if the screen width is less than or equal to 768px (mobile size)
+  const isMobile = window.innerWidth <= 768;
   return (
     <>
       <div className="py-12 sm:py-0 dark:bg-black dark:text-white duration-300 overflow-hidden">
@@ -34,7 +53,7 @@ const Hero = ({ togglePlay }) => {
               data-aos-offset="0"
               className="order-1 sm:order-2"
             >
-              <img src={DhruvPng} alt="" style={{ height: '40em', borderEndStartRadius:'35px', borderBottomRightRadius:'35px' }}  className=" " />
+              <img src={DhruvPng} alt="" style={isMobile ? mobileImageStyle : imageStyle}  className="  " />
             </div>
           </div>
 

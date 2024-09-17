@@ -19,7 +19,7 @@ const FeaturesData = [
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "https://mrdhruvchandra.github.io/pr1/",
-    description: "Developed a website of remote sensing application center, during my internship there. It shows various data of roads and bridges in uttar pradesh. This website is build using HTML,CSS, and javascript and for map integration I used openlayer.js which is a javascript library.",
+    description: "It's dynamic website showcasing detailed data on roads and bridges across Uttar Pradesh. Built with HTML, CSS, and JavaScript, the site offers a user-friendly experience, with interactive maps integrated using OpenLayers.js- a powerful JavaScript library for geospatial data visualization. The website seamlessly presents complex infrastructure data, making it accessible and easy to explore.",
     aosDelay: "500",
   },
   {
@@ -28,15 +28,33 @@ const FeaturesData = [
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "https://shopna-shoping.netlify.app" ,
-    description: "Shopna is an online clothing e-shop. In this app, there are a variety of garments available for all age groups. It is built using React.js and designed using Tailwind CSS.",
+    description: "Shopna is an online clothing e-shop offering a wide range of garments for all age groups. Built using React.js for a fast and interactive user experience, the app is styled with Tailwind CSS to ensure a modern, responsive, and visually appealing design. Whether you're looking for trendy outfits or classic pieces, Shopna has something for everyone!",
     aosDelay: "700",
+  },
+  {
+    name: "Kitchen business website",
+    icon: (
+      <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
+    ),
+    link: "https://maurya-modular-kitchen.netlify.app/" ,
+    description: " This website showcases various modular kitchen designs, services, and solutions. It features a gallery of kitchen layouts, client testimonials, and detailed descriptions of their offerings, emphasizing functionality, style, and customization. The site aims to attract homeowners looking to modernize their kitchens with high-quality, aesthetically pleasing designs.",
+     aosDelay: "700",
+  },
+  {
+    name: "Bloging Website",
+    icon: (
+      <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
+    ),
+    link: "https://dhruv-blogs.netlify.app/" ,
+    description: "It is user-friendly bloging platform for writers and readers. Share your stories, explore diverse topics, and engage with a like-minded community. Enjoy features like a seamless text editor, personalized dashboard, interactive comments, and mobile-friendly design. Create, customize, and connect—whether you're a seasoned writer or just starting your blogging journey.   ",
+      aosDelay: "700",
   },
 ];
 
 const Projects = () => {
   return (
     <>
-      <div id="projects" className="container py-14 sm:min-h-[600px]">
+      <div id="projects" className="container py-14 sm:min-h-[600px] ">
         <div>
           <h1
             data-aos="fade-up"
