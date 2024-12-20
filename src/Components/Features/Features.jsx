@@ -2,12 +2,13 @@ import React from "react";
 import { FaCameraRetro } from "react-icons/fa";
 import { GiNotebook } from "react-icons/gi";
 import { SlNote } from "react-icons/sl";
+import { FaMoneyBillWave, FaShoppingCart,FaUtensils, FaBlog, FaPlaneDeparture } from "react-icons/fa";
 
 const FeaturesData = [
   {
     name: "Travel website",
     icon: (
-      <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
+      <FaPlaneDeparture className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "https://travellogo-shaw-travels.netlify.app/",
     description: "Developed a web application that displays the places to visit. Here you can hire a tour guide and plan trip with family or solo. It offers various places in India and forein also. it is a frontent websit build using react.js and designed using tailwind css. ",
@@ -25,7 +26,7 @@ const FeaturesData = [
   {
     name: "Shoping app- Shopna",
     icon: (
-      <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
+      <FaShoppingCart className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "https://shopna-shoping.netlify.app" ,
     description: "Shopna is an online clothing e-shop offering a wide range of garments for all age groups. Built using React.js for a fast and interactive user experience, the app is styled with Tailwind CSS to ensure a modern, responsive, and visually appealing design. Whether you're looking for trendy outfits or classic pieces, Shopna has something for everyone!",
@@ -34,7 +35,7 @@ const FeaturesData = [
   {
     name: "Kitchen business website",
     icon: (
-      <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
+      <FaUtensils className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "https://maurya-modular-kitchen.netlify.app/" ,
     description: " This website showcases various modular kitchen designs, services, and solutions. It features a gallery of kitchen layouts, client testimonials, and detailed descriptions of their offerings, emphasizing functionality, style, and customization. The site aims to attract homeowners looking to modernize their kitchens with high-quality, aesthetically pleasing designs.",
@@ -43,10 +44,19 @@ const FeaturesData = [
   {
     name: "Bloging Website",
     icon: (
-      <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
+      <FaBlog className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "https://dhruv-blogs.netlify.app/" ,
     description: "It is user-friendly bloging platform for writers and readers. Share your stories, explore diverse topics, and engage with a like-minded community. Enjoy features like a seamless text editor, personalized dashboard, interactive comments, and mobile-friendly design. Create, customize, and connect—whether you're a seasoned writer or just starting your blogging journey.   ",
+      aosDelay: "700",
+  },
+  {
+    name: "D_pay",
+    icon: (
+      <FaMoneyBillWave className="text-5xl text-primary group-hover:text-black duration-500" />
+    ),
+    link: "https://d-pay.netlify.app/" ,
+    description: "D-Pay is a secure and feature-rich payment application designed to streamline online transactions and enhance user convenience. Built with modern technologies, it provides a seamless and intuitive interface for users to manage their payments efficiently. ",
       aosDelay: "700",
   },
 ];

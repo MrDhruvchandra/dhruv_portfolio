@@ -9,16 +9,19 @@ import {
 } from "react-icons/fa";
 
 const FooterLinks = [
-  { id: 1, title: "Home", link: "/#" },
+  { id: 1, 
+    title: "Home",
+    link: "/" 
+  },
   {
     id: 2,
     title: "About",
-    link: "/#about",
+    link: "/about",
   },
   {
     id: 3,
     title: "Contact",
-    link: "mailto:dhruvmaurya298@gmail.com",
+    link: "/contact",
   }
 ];
 const Footer = () => {
@@ -85,7 +88,7 @@ const Footer = () => {
                  {/* contact section */}
               <div>
                 <div className="flex items-center py-8 gap-3">
-                 <a href="" target="_blank">
+                 <a href="https://www.google.com/maps/place/Institute+of+Engineering+and+Technology+(IET)/@26.9142974,80.9393389,17z/data=!3m1!4b1!4m6!3m5!1s0x3999564d2761d695:0xffaa6ccef8c6ddae!8m2!3d26.9142926!4d80.9419138!16s%2Fg%2F1215cd52?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
                  <FaLocationArrow />
                  </a>
                   
