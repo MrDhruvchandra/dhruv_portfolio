@@ -41,7 +41,8 @@ const Hero = ({ togglePlay }) => {
                   data-aos="fade-up"
                   data-aos-delay="500"
                   className="primary-btn"
-                > <a href="https://drive.google.com/file/d/1B78RnZ4SqEwvPaVM17N7SV0I0T2DquJk/view?usp=drivesdk" target="_blank"> Download Resume</a>
+                > <a href="https://drive.google.com/file/d/1CM_N1e96zTDuJYLMw2s2FIFOsvNR4_vL/view?usp=drivesdk" target="_blank">
+                   Download Resume</a>
                   
                 </button>
                  
