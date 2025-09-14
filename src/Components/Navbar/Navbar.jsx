@@ -16,11 +16,26 @@ const NavLinks = [
   },
   {
     id: 3,
+    name: "Skills",
+    link: "/#skills",
+  },
+  {
+    id: 4,
+    name: "Experience",
+    link: "/experience",
+  },
+  {
+    id: 5,
+    name: "Dashboard",
+    link: "/dashboard",
+  },
+  {
+    id: 6,
     name: "Projects",
     link: "/projects",
   },
   {
-    id: 4,
+    id: 7,
     name: "Contact",
     link: "/contact",
   },

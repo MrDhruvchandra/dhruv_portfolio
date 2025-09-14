@@ -6,6 +6,9 @@ import Hero from "./Components/Hero/Hero";
 import Quotes from "./Components/Quotes/Quotes";
 import About from "./Components/Banner/About";
 import Banner2 from "./Components/Banner/Banner2";
+import Skills from "./Components/Skills/Skills";
+import Experience from "./Components/Experience/Experience";
+import Dashboard from "./Components/Dashboard/Dashboard";
 import Features from "./Components/Features/Features";
 import Footer from "./Components/Footer/Footer";
 import Contact from "./Components/Contact/Contact";
@@ -41,12 +44,15 @@ const App = () => {
                 <Hero togglePlay={togglePlay} />
                 <Quotes />
                 <About togglePlay={togglePlay} />
+                <Skills />
                 <Banner2 togglePlay={togglePlay} />
                 <Features />
               </>
             } 
           />
           <Route path="/about" element={<About togglePlay={togglePlay} />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/projects" element={<Features />} />
           <Route path="/contact" element={<Contact />} />
           {/* Add more routes as needed */}

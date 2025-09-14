@@ -37,13 +37,13 @@ const About = ({ togglePlay }) => {
                 data-aos-delay="300"
                 className="text-4xl font-semibold"
               >
-                Tech Enthusiast  Proficient in Javascript{" "}
+                Software Development Engineer in Test (SDET) at{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-                 MERN stack Developer
+                 Paytm
                 </span>
               </h1>
               <p data-aos="fade-up" data-aos-delay="500">
-              I persuing Bachelor of Technology in Electronics and Communication Engineering from Institute of Engineering & Technology Lucknow. Skilled in Javascript, React.js, C++, HTML, CSS, UI/UX desing, Tailwind CSS and various tools and platforms, I have developed several Frontend projects like Travel website, Shoping and food odering wesites.
+              Currently working as an SDET at Paytm with 9 months of experience in test automation and quality assurance. I hold a Bachelor of Technology in Electronics and Communication Engineering from Institute of Engineering & Technology Lucknow. Proficient in automation testing with Selenium & Playwright, API testing via Postman & Karate framework, and cutting-edge AI-driven testing approaches using LangChain and LangGraph frameworks.
               </p>
               <div className="flex gap-6">
                 <button

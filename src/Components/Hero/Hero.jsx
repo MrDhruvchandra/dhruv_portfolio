@@ -35,7 +35,7 @@ const Hero = ({ togglePlay }) => {
                 </span>
               </h1>
               <p data-aos="fade-up" data-aos-delay="300">
-              I am a MERN Stack Developer, JavaScript Enthusiast, and Innovative Software Engineer. Passionate about leveraging cutting-edge technology, I continuously strive to create impactful and user-friendly web applications.              </p>
+              I am a Software Development Engineer in Test (SDET) at Paytm with 9 months of experience in test automation and quality assurance. Passionate about leveraging cutting-edge technology including AI-driven testing, automation frameworks, and API testing to ensure robust software quality.              </p>
               <div className="flex gap-6">
                 <button
                   data-aos="fade-up"
